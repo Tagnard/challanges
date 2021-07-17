@@ -308,3 +308,21 @@ fn validate_accumulating_array() {
     assert_eq!(accumulating_array(vec![1, 0, 1, 0, 1]), vec![1, 1, 2, 2, 3]);
     assert_eq!(accumulating_array(vec![]), vec![]);
 }
+
+/// Title: Letters Only
+/// Challenge URL: https://edabit.com/challenge/azvb6mtiQvRGo6XTf
+/// Task: Check if the given string consists of only letters and spaces and if every letter is in lower case.
+fn letters_only(letters: &str) -> bool {
+    let re = Regex::new(r"^[a-z ]+$").unwrap();
+    return re.is_match(letters);
+}
+
+#[test]
+fn validate_letters_only() {
+    assert_eq!(letters_only("JAVACRIPT"), false);
+    assert_eq!(letters_only("javascript"), true);
+    assert_eq!(letters_only("12321313"), false);
+    assert_eq!(letters_only("i have spaces"), true);
+    assert_eq!(letters_only("i have numbers(1-10)"), false);
+    assert_eq!(letters_only(""), false);
+}
