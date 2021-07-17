@@ -327,7 +327,7 @@ fn validate_letters_only() {
     assert_eq!(letters_only(""), false);
 }
 
-/// Reverse Coding Challenge #1
+/// Title: Reverse Coding Challenge #1
 /// Challenge URL: https://edabit.com/challenge/gtdyy97TTDPWkei9d
 /// Task: Create a function that satisfy the relationship between the inputs and outputs.
 fn rcc1(letters: &str) -> String {
