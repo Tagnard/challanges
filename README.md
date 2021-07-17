@@ -16,3 +16,4 @@
 | Broken Bridge                                    | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L270-L287) |
 | Accumulating Array                               | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L289-L310) |
 | Letters Only                                     | [ Rust ](https://github.com/Tagnard/edabit/blob/757e7d2cada51fa177252af9c3a2980265b8ecef/rust/src/lib.rs#L312-L328) |
+| Reverse Coding Challenge #1                      | [ Rust ](https://github.com/Tagnard/edabit/blob/69342b2f3e589a5d334b83629faad23e07d7ec58/rust/src/lib.rs#L330-L348) |
