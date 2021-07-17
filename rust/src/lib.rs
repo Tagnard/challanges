@@ -401,3 +401,25 @@ fn validate_decompose_address() {
     assert_eq!(decompose_address("3315 Vanity St Beverly Hills, CA 90210"), vec!["3315", "Vanity St", "Beverly Hills", "CA", "90210"]);
     assert_eq!(decompose_address("8919 Scarecrow Ct Idaho Falls, ID 80193"), vec!["8919", "Scarecrow Ct", "Idaho Falls", "ID", "80193"]);
 }
+
+/// Title: Message from Space
+/// Challenge URL: https://edabit.com/challenge/58iEEYqxFdnkBjEiA
+/// Task: Create a function that takes encrypted message str and returns the decrypted message.
+pub fn space_message(message: &str) -> String {
+    let re = Regex::new(r"(\w+|\[(\d)(\w+)\])").unwrap();
+    re.captures_iter(message).map(|m| {
+        match m.get(0).unwrap().as_str().find("[") {
+            Some(..) => {
+                return vec![m.get(3).unwrap().as_str(); m.get(2).unwrap().as_str().parse::<usize>().unwrap()].join("")
+            },
+            None => return m.get(0).unwrap().as_str().to_string()
+        }
+    }).collect()
+}
+
+#[test]
+fn validate_space_message() {
+    assert_eq!(space_message("ABCD"), "ABCD");
+    assert_eq!(space_message("AB[3CD]"), "ABCDCDCD");
+    assert_eq!(space_message("IF[2E]LG[5O]D"), "IFEELGOOOOOD");
+}
