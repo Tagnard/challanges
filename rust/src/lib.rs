@@ -379,3 +379,25 @@ fn validate_caesar_cipher() {
     assert_eq!(caesar_cipher("A friend in need is a friend indeed", 20), "U zlcyhx ch hyyx cm u zlcyhx chxyyx");
     assert_eq!(caesar_cipher("XxYyZz", 6), "DdEeFf");
 }
+
+/// Title: Decompose Address
+/// Challenge URL: https://edabit.com/challenge/ah9SjMJzFmNLD54W9
+/// Task: Create a function that decomposes an address string into an array of five substrings
+fn decompose_address(address: &str) -> Vec<&str> {
+    let re = Regex::new(r"^(\d+) (\w+ \w+) ([^,]+), ([A-Z]{2}) (\d+)$").unwrap();
+    let captures = re.captures(address).unwrap();
+    vec![
+        captures.get(1).unwrap().as_str(),
+        captures.get(2).unwrap().as_str(),
+        captures.get(3).unwrap().as_str(),
+        captures.get(4).unwrap().as_str(),
+        captures.get(5).unwrap().as_str(),
+    ]
+}
+
+#[test]
+fn validate_decompose_address() {
+    assert_eq!(decompose_address("557 Farmer Rd Corner, MT 59105"), vec!["557", "Farmer Rd", "Corner", "MT", "59105"]);
+    assert_eq!(decompose_address("3315 Vanity St Beverly Hills, CA 90210"), vec!["3315", "Vanity St", "Beverly Hills", "CA", "90210"]);
+    assert_eq!(decompose_address("8919 Scarecrow Ct Idaho Falls, ID 80193"), vec!["8919", "Scarecrow Ct", "Idaho Falls", "ID", "80193"]);
+}
