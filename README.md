@@ -19,3 +19,4 @@
 | Reverse Coding Challenge #1                      | [ Rust ](https://github.com/Tagnard/edabit/blob/69342b2f3e589a5d334b83629faad23e07d7ec58/rust/src/lib.rs#L330-L348) |
 | Caesar's Cipher                                  | [ Rust ](https://github.com/Tagnard/edabit/blob/10af88308294a454ed6d6c3255b2498565ee61b1/rust/src/lib.rs#L350-L381) |
 | Decompose Address                                | [ Rust ](https://github.com/Tagnard/edabit/blob/31ffb84d248661347a332406dc394416ff48aaf8/rust/src/lib.rs#L383-L403) |
+| Message from Space                               | [ Rust ](https://github.com/Tagnard/edabit/blob/f75209efe0b52a381e8d787f934f3f2b381b50ff/rust/src/lib.rs#L405-L425) |
