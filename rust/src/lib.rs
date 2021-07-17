@@ -347,7 +347,7 @@ fn validate_rcc1() {
     assert_eq!(rcc1("A1B2C3D4"), "ABBCCCDDDD");
 }
 
-/// Title Caesar's Cipher
+/// Title: Caesar's Cipher
 /// Challenge URL: https://edabit.com/challenge/GmPfqu2jmLDBD2NYS
 /// Task: Create a function that takes a string s (text to be encrypted) 
 ///       and an integer k (the rotation factor). It should return an encrypted string.
