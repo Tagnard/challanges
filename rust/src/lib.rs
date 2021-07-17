@@ -346,3 +346,36 @@ fn validate_rcc1() {
     assert_eq!(rcc1("T4S2V2"), "TTTTSSVV");
     assert_eq!(rcc1("A1B2C3D4"), "ABBCCCDDDD");
 }
+
+/// Title Caesar's Cipher
+/// Challenge URL: https://edabit.com/challenge/GmPfqu2jmLDBD2NYS
+/// Task: Create a function that takes a string s (text to be encrypted) 
+///       and an integer k (the rotation factor). It should return an encrypted string.
+fn caesar_cipher(letters: &str, shift: usize) -> String { 
+    letters.chars().map(|c| {
+        // Shift uppercase
+        if (c as u8) > 64 && (c as u8) < 91 {
+            if (c as u8 + shift as u8) > 90 {
+                return (c as u8 + shift as u8  - 26u8) as char
+            } else {
+                return (c as u8 + shift as u8) as char
+            }
+        // Shift lowerchase
+        } else if (c as u8) > 96 && (c as u8) < 123 {
+            if (c as u8 + shift as u8) > 122 {
+                return (c as u8 + shift as u8  - 26u8) as char
+            } else {
+                return (c as u8 + shift as u8) as char
+            }
+        } else {
+            return c
+        }
+    }).collect()
+}
+
+#[test]
+fn validate_caesar_cipher() {
+    assert_eq!(caesar_cipher("Always-Look-on-the-Bright-Side-of-Life", 5), "Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj");
+    assert_eq!(caesar_cipher("A friend in need is a friend indeed", 20), "U zlcyhx ch hyyx cm u zlcyhx chxyyx");
+    assert_eq!(caesar_cipher("XxYyZz", 6), "DdEeFf");
+}
