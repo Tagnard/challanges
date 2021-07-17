@@ -1,7 +1,7 @@
 # Edabit Challenges
 
 | Title        | Language       |
-| ------------- |:-------------|
+| :------------- |:-------------|
 | White Spaces Between Lower and Uppercase Letters | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L5-L19) |
 | Find the Bomb                                    | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L21-L37) |
 | IPv4 Validation                                  | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L39-L68) |
