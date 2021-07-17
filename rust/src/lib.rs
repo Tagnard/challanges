@@ -326,3 +326,23 @@ fn validate_letters_only() {
     assert_eq!(letters_only("i have numbers(1-10)"), false);
     assert_eq!(letters_only(""), false);
 }
+
+/// Reverse Coding Challenge #1
+/// Challenge URL: https://edabit.com/challenge/gtdyy97TTDPWkei9d
+/// Task: Create a function that satisfy the relationship between the inputs and outputs.
+fn rcc1(letters: &str) -> String {
+    let re = Regex::new(r"(?:(([A-Z]{1})([0-9]+))),?").unwrap();
+    return re.captures_iter(letters).map(|cap| {
+        let letter = cap.get(2).unwrap().as_str();
+        let number = cap.get(3).unwrap().as_str();
+        return vec![letter;number.parse::<usize>().unwrap()].join("");
+    }).collect();
+}
+
+#[test]
+fn validate_rcc1() {
+    assert_eq!(rcc1("A4B5C2"), "AAAABBBBBCC");
+    assert_eq!(rcc1("C2F1E5"), "CCFEEEEE");
+    assert_eq!(rcc1("T4S2V2"), "TTTTSSVV");
+    assert_eq!(rcc1("A1B2C3D4"), "ABBCCCDDDD");
+}
