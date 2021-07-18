@@ -422,3 +422,19 @@ fn validate_space_message() {
     assert_eq!(space_message("AB[3CD]"), "ABCDCDCD");
     assert_eq!(space_message("IF[2E]LG[5O]D"), "IFEELGOOOOOD");
 }
+
+/// Title: Amplify the Multiples of Four
+/// Challenge URL: https://edabit.com/challenge/kKvXt3DiTrGmvFCWq
+/// Task: Create a function that takes an integer and returns an array from 1 to the given number, where:
+///       1. If the number can be divided evenly by 4, amplify it by 10 (i.e. return 10 times the number).
+///       2. If the number cannot be divided evenly by 4, simply return the number.
+pub fn amplify(n: u32) -> Vec<u32> {
+    (1..=n).into_iter().map(|num| if num % 4 == 0 { num * 10 } else { num }).collect()
+}
+
+#[test]
+fn validate_amplify() {
+    assert_eq!(amplify(4), vec![1, 2, 3, 40]);
+    assert_eq!(amplify(3), vec![1, 2, 3]);
+    assert_eq!(amplify(25), vec![1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]);
+}
