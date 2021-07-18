@@ -453,3 +453,30 @@ fn validate_is_four_letters() {
     assert_eq!(is_four_letters(vec!["Kangaroo", "Bear", "Fox"]), vec!["Bear"]);
     assert_eq!(is_four_letters(vec!["Ryan", "Kieran", "Jason", "Matt"]), vec!["Ryan", "Matt"]);
 }
+
+/// Title: Compare by ASCII Codes
+/// Challenge URL: https://edabit.com/challenge/2otrC5z9iFQm4Zczb
+/// Task: Create a function that compares two words based on the sum of their ASCII codes 
+///       and returns the word with the smaller ASCII sum.
+pub fn ascii_sort(words: Vec<&str>) -> &str {
+    let mut word_one: u32 = 0;
+    let mut word_two: u32 = 0;
+    
+    words[0].chars().for_each(|c| word_one += (c as u8) as u32);
+    words[1].chars().for_each(|c| word_two += (c as u8) as u32);
+
+    println!("w1: {}, w2: {}", word_one, word_two);
+
+    if word_one < word_two {
+        return words[0]
+    } else {
+        return words[1]
+    } 
+}
+
+#[test]
+fn validate_ascii_sort() {
+    assert_eq!(ascii_sort(vec!["hey", "man"]), "man");
+    assert_eq!(ascii_sort(vec!["majorly", "then"]), "then");
+    assert_eq!(ascii_sort(vec!["victory", "careless"]), "victory");
+}
