@@ -6,7 +6,6 @@
 | Find the Bomb                                    | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L21-L30) |
 | IPv4 Validation                                  | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L39-L58) |
 | Count Letters in a Word Search                   | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L70-L83) |
-
 | Owofied a Sentence                               | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L102-L109) |
 | Absolute Sum                                     | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L118-L127) |
 | Perfect Square Patch                             | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L137-L142) |
