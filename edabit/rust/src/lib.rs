@@ -438,3 +438,18 @@ fn validate_amplify() {
     assert_eq!(amplify(3), vec![1, 2, 3]);
     assert_eq!(amplify(25), vec![1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]);
 }
+
+/// Title: Return the Four Letter Strings
+/// Challenge URL: https://edabit.com/challenge/3HEY2ZfqMXyZsA87i
+/// Task: Create a function that takes a vector (array) of strings. 
+///       Return all words in the vector (array) that are exactly four letters.
+pub fn is_four_letters(words: Vec<&str>) -> Vec<&str> {
+    words.into_iter().filter(|word| word.len() == 4).collect()
+}
+
+#[test]
+fn validate_is_four_letters() {
+    assert_eq!(is_four_letters(vec!["Tomato", "Potato", "Pair"]), vec!["Pair"]);
+    assert_eq!(is_four_letters(vec!["Kangaroo", "Bear", "Fox"]), vec!["Bear"]);
+    assert_eq!(is_four_letters(vec!["Ryan", "Kieran", "Jason", "Matt"]), vec!["Ryan", "Matt"]);
+}
