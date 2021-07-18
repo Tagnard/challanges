@@ -20,3 +20,4 @@
 | Caesar's Cipher                                  | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L349-L373) |
 | Decompose Address                                | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L382-L395) |
 | Message from Space                               | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L404-L417) |
+| Amplify the Multiples of Four                    | [ Rust ](https://github.com/Tagnard/challanges/blob/dfb8e34108fc1071840b68edd64b96d443774f74/edabit/rust/src/lib.rs#L426-L433) |
