@@ -21,3 +21,5 @@
 | Decompose Address                                | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L382-L395) |
 | Message from Space                               | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L404-L417) |
 | Amplify the Multiples of Four                    | [ Rust ](https://github.com/Tagnard/challanges/blob/dfb8e34108fc1071840b68edd64b96d443774f74/edabit/rust/src/lib.rs#L426-L433) |
+| Return the Four Letter Strings                   | [ Rust ](https://github.com/Tagnard/challanges/blob/2c63d3a41e43337e9c4725bf6d0ee7484f450b60/edabit/rust/src/lib.rs#L442-L448) |
+| Compare by ASCII Codes                           | [ Rust ](https://github.com/Tagnard/challanges/blob/2c63d3a41e43337e9c4725bf6d0ee7484f450b60/edabit/rust/src/lib.rs#L457-L475) |
