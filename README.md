@@ -2,21 +2,22 @@
 
 | Title          | Language     |
 | :------------- |:-------------|
-| White Spaces Between Lower and Uppercase Letters | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L5-L19) |
-| Find the Bomb                                    | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L21-L37) |
-| IPv4 Validation                                  | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L39-L68) |
-| Count Letters in a Word Search                   | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L70-L100) |
-| Owofied a Sentence                               | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L102-L116) |
-| Absolute Sum                                     | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L118-L136) |
-| Perfect Square Patch                             | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L138-L168) |
-| Valid Hex Code                                   | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L170-L187) |
-| Toy Car Workshop                                 | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L189-L210) |
-| Tic Tac Toe                                      | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L212-L254) |
-| Burrrrrrrp                                       | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L256-L268) |
-| Broken Bridge                                    | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L270-L287) |
-| Accumulating Array                               | [ Rust ](https://github.com/Tagnard/edabit/blob/b07a6e778f56f04fb260089848847b39c464835e/rust/src/lib.rs#L289-L310) |
-| Letters Only                                     | [ Rust ](https://github.com/Tagnard/edabit/blob/757e7d2cada51fa177252af9c3a2980265b8ecef/rust/src/lib.rs#L312-L328) |
-| Reverse Coding Challenge #1                      | [ Rust ](https://github.com/Tagnard/edabit/blob/69342b2f3e589a5d334b83629faad23e07d7ec58/rust/src/lib.rs#L330-L348) |
-| Caesar's Cipher                                  | [ Rust ](https://github.com/Tagnard/edabit/blob/10af88308294a454ed6d6c3255b2498565ee61b1/rust/src/lib.rs#L350-L381) |
-| Decompose Address                                | [ Rust ](https://github.com/Tagnard/edabit/blob/31ffb84d248661347a332406dc394416ff48aaf8/rust/src/lib.rs#L383-L403) |
-| Message from Space                               | [ Rust ](https://github.com/Tagnard/edabit/blob/f75209efe0b52a381e8d787f934f3f2b381b50ff/rust/src/lib.rs#L405-L425) |
+| White Spaces Between Lower and Uppercase Letters | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L5-L12) |
+| Find the Bomb                                    | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L21-L30) |
+| IPv4 Validation                                  | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L39-L58) |
+| Count Letters in a Word Search                   | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L70-L83) |
+
+| Owofied a Sentence                               | [ Rust ](https://github.com/Tagnard/challanges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L102-L109) |
+| Absolute Sum                                     | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L118-L127) |
+| Perfect Square Patch                             | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L137-L142) |
+| Valid Hex Code                                   | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L169-L175) |
+| Toy Car Workshop                                 | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L188-L202) |
+| Tic Tac Toe                                      | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L211-L232) |
+| Burrrrrrrp                                       | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L255-L260) |
+| Broken Bridge                                    | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L269-L279) |
+| Accumulating Array                               | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L288-L301) |
+| Letters Only                                     | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L311-L317) |
+| Reverse Coding Challenge #1                      | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L329-L339) |
+| Caesar's Cipher                                  | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L349-L373) |
+| Decompose Address                                | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L382-L395) |
+| Message from Space                               | [ Rust ](https://github.com/Tagnard/challanges/blob/3ee8450d0a78ecce6349a0f0b05c5034026615ce/edabit/rust/src/lib.rs#L404-L417) |
