@@ -144,3 +144,30 @@ export const spaceMessage = (message) =>
     /\[/.test(message)
         ? [...message.matchAll(/(\w+|\[(\d)(\w+)\])/g)].map((part) => (/\[/.test(part) ? Array(parseInt(part[2])).fill(part[3]).join("") : part[1])).join("")
         : message;
+
+/// Title: Amplify the Multiples of Four
+/// Challenge URL: https://edabit.com/challenge/kKvXt3DiTrGmvFCWq
+/// Task: Create a function that takes an integer and returns an array from 1 to the given number, where:
+///       1. If the number can be divided evenly by 4, amplify it by 10 (i.e. return 10 times the number).
+///       2. If the number cannot be divided evenly by 4, simply return the number.
+export const amplify = (n) => {
+    // Create a new array and remove the first element
+    let arr = Array.from(Array(n + 1).keys()).slice(1);
+    return arr.map((el, i) => (el % 4 == 0 ? el * 10 : el));
+};
+
+/// Title: Return the Four Letter Strings
+/// Challenge URL: https://edabit.com/challenge/3HEY2ZfqMXyZsA87i
+/// Task: Create a function that takes a vector (array) of strings.
+///       Return all words in the vector (array) that are exactly four letters.
+export const isFourLetters = (words) => words.filter((word) => word.length == 4);
+
+/// Title: Compare by ASCII Codes
+/// Challenge URL: https://edabit.com/challenge/2otrC5z9iFQm4Zczb
+/// Task: Create a function that compares two words based on the sum of their ASCII codes
+///       and returns the word with the smaller ASCII sum.
+export const asciiSort = (words) => {
+    let word1 = [...words[0]].reduce((acc, e) => (acc += e.charCodeAt(0)), 0);
+    let word2 = [...words[1]].reduce((acc, e) => (acc += e.charCodeAt(0)), 0);
+    return word1 > word2 ? words[1] : words[0];
+};

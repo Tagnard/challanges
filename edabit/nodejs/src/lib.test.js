@@ -172,3 +172,21 @@ test('should validate "Message from Space"', () => {
     expect(lib.spaceMessage("AB[3CD]")).toBe("ABCDCDCD");
     expect(lib.spaceMessage("IF[2E]LG[5O]D")).toBe("IFEELGOOOOOD");
 });
+
+test('should validate "Amplify the Multiples of Four"', () => {
+    expect(lib.amplify(4)).toStrictEqual([1, 2, 3, 40]);
+    expect(lib.amplify(3)).toStrictEqual([1, 2, 3]);
+    expect(lib.amplify(25)).toStrictEqual([1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]);
+});
+
+test('should validate "Return the Four Letter Strings"', () => {
+    expect(lib.isFourLetters(["Tomato", "Potato", "Pair"])).toStrictEqual(["Pair"]);
+    expect(lib.isFourLetters(["Kangaroo", "Bear", "Fox"])).toStrictEqual(["Bear"]);
+    expect(lib.isFourLetters(["Ryan", "Kieran", "Jason", "Matt"])).toStrictEqual(["Ryan", "Matt"]);
+});
+
+test('should validate "Compare by ASCII Codes"', () => {
+    expect(lib.asciiSort(["hey", "man"])).toBe("man");
+    expect(lib.asciiSort(["majorly", "then"])).toBe("then");
+    expect(lib.asciiSort(["victory", "careless"])).toStrictEqual("victory");
+});
