@@ -118,7 +118,6 @@ fn validate_owofied() {
 /// Title: Absolute Sum
 /// Challenge URL: https://edabit.com/challenge/jBFpjEG3tvsjTZbD4
 /// Task: Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
-
 fn get_abs_sum(arr: Vec<i32>) -> Option<i32> {
     if arr.len() == 1 {
         return Some(arr[0].abs());
