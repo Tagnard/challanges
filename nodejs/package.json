@@ -1,0 +1,23 @@
+{
+  "name": "edabit-challenges",
+  "version": "1.0.0",
+  "description": "Answers to edabit challenges",
+  "main": "lib.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "edabit",
+    "challenges"
+  ],
+  "author": "Emil Haugbergsmyr <emil@raeven.net>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}
