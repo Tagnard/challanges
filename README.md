@@ -31,6 +31,7 @@
 | Amplify the Multiples of Four                    | [Rust][edabit-rust-19], [NodeJS][edabit-node-19] |
 | Return the Four Letter Strings                   | [Rust][edabit-rust-20], [NodeJS][edabit-node-20] |
 | Compare by ASCII Codes                           | [Rust][edabit-rust-21], [NodeJS][edabit-node-21] |
+| Convert to Hex                                   | [Rust][edabit-rust-22]                           |
 
 [edabit-rust-01]: https://github.com/Tagnard/challenges/blob/2b859ace6792f3736881d65cbad943ffc1f6b555/edabit/rust/src/lib.rs#L5-L12
 [edabit-node-01]: https://github.com/Tagnard/challenges/blob/e0f7406a09d1e63bf0a529ecc5cfeba555d680a0/edabit/nodejs/src/lib.js#L1-L4
@@ -74,3 +75,4 @@
 [edabit-node-20]: https://github.com/Tagnard/challenges/blob/d9bb4490ba4e85f2e08d5934fb33ef2cf22af8ad/edabit/nodejs/src/lib.js#L159-L163
 [edabit-rust-21]: https://github.com/Tagnard/challenges/blob/2c63d3a41e43337e9c4725bf6d0ee7484f450b60/edabit/rust/src/lib.rs#L457-L475
 [edabit-node-21]: https://github.com/Tagnard/challenges/blob/d9bb4490ba4e85f2e08d5934fb33ef2cf22af8ad/edabit/nodejs/src/lib.js#L165-L173
+[edabit-rust-22]: https://github.com/Tagnard/challenges/blob/cf754117dbf34e321e332e3125024fb32ab10a1c/edabit/rust/src/lib.rs#L484-L490
