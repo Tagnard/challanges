@@ -480,3 +480,18 @@ fn validate_ascii_sort() {
     assert_eq!(ascii_sort(vec!["majorly", "then"]), "then");
     assert_eq!(ascii_sort(vec!["victory", "careless"]), "victory");
 }
+
+/// Title: Convert to Hex
+/// Challenge URL: https://edabit.com/challenge/2otrC5z9iFQm4Zczb
+/// Task: Create a function that takes a strings characters as ASCII 
+///       and returns each characters hexadecimal value as a string.
+pub fn to_hex(sentence: &str) -> String {
+    sentence.chars().map(|c| format!("{:x}", c as u8)).collect::<Vec<String>>().join(" ")
+}
+
+#[test]
+fn validate_to_hex() {
+    assert_eq!(to_hex("hello world"), "68 65 6c 6c 6f 20 77 6f 72 6c 64");
+    assert_eq!(to_hex("Big Boi"), "42 69 67 20 42 6f 69");
+    assert_eq!(to_hex("Marty Poppinson"), "4d 61 72 74 79 20 50 6f 70 70 69 6e 73 6f 6e");
+}
